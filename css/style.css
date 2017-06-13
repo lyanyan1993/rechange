@@ -21,6 +21,9 @@ html,body {
 input,button{
 	outline: none;
 }
+[v-cloak] {
+	display: none;
+}
 .change_top{
 	background: #fff;
 	/*padding:0 15px;*/
@@ -28,12 +31,25 @@ input,button{
 }
 .num_ower{
 	margin-left: 8px;
+	color: #666666;
 }
 .change_top_num{
 	border-bottom: 1px solid #dcdcdc;
 	height: 50px;
 	line-height: 50px;
 	padding: 0 15px;
+}
+::-webkit-input-placeholder {
+	color: #b8b8b8;
+}
+:-moz-placeholder {
+	color: #b8b8b8;
+}
+::-moz-placeholder {
+	color: #b8b8b8;
+}
+:-ms-input-placeholder {
+	color: #b8b8b8;
 }
 .num_close{
 	width: 19px;
@@ -52,7 +68,7 @@ input,button{
 	height:100%;
 	box-sizing: border-box;
 	border:none;
-	font-size: 14px;
+	font-size: 16px;
 }
 .change_top_addre{
 	line-height: 35px;
@@ -141,4 +157,10 @@ input,button{
 	font-size:14px;
 	border-radius:5px;
 	border:none;
+}
+.bgColor{
+	background:#34a9e3;
+}
+.bgColor>p{
+	color: #fff;
 }
